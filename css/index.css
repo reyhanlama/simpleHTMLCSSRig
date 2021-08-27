@@ -63,8 +63,6 @@ nav .nav-menu a {
 /* Nav Menu End */
 main {
   height: 100vh;
-  background-image: url("../assets/background.png");
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,7 +94,6 @@ main h1 {
   font-size: 150px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
 }
 
 main .btn-group {
@@ -163,5 +160,28 @@ main .btn.two {
 .view {
   border: 1px solid white;
   padding: 15px 50px 15px 50px;
+}
+
+.grid {
+  margin-top: 200px;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: #f8f8f8;
+}
+
+.grid h1 {
+  color: black;
+  font-size: 96px;
+  width: 500px;
+  border: 1px solid black;
+  line-height: 120%;
+  padding-left: 100px;
+}
+
+.grid p {
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */
